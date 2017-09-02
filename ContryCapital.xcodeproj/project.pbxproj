@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C2FF6E21F5AB34200E70E64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FF6E11F5AB34200E70E64 /* AppDelegate.swift */; };
+		4C2FF6E41F5AB34200E70E64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FF6E31F5AB34200E70E64 /* ViewController.swift */; };
+		4C2FF6E71F5AB34200E70E64 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FF6E51F5AB34200E70E64 /* Main.storyboard */; };
+		4C2FF6E91F5AB34200E70E64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FF6E81F5AB34200E70E64 /* Assets.xcassets */; };
+		4C2FF6EC1F5AB34200E70E64 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4C2FF6EA1F5AB34200E70E64 /* LaunchScreen.storyboard */; };
+		4C2FF6F71F5AB34200E70E64 /* ContryCapitalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FF6F61F5AB34200E70E64 /* ContryCapitalTests.swift */; };
+		4C2FF7021F5AB34200E70E64 /* ContryCapitalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FF7011F5AB34200E70E64 /* ContryCapitalUITests.swift */; };
+		4C2FF7101F5ABDFD00E70E64 /* myCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4C2FF70F1F5ABDFD00E70E64 /* myCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4C2FF6F31F5AB34200E70E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2FF6D61F5AB34200E70E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2FF6DD1F5AB34200E70E64;
+			remoteInfo = ContryCapital;
+		};
+		4C2FF6FE1F5AB34200E70E64 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4C2FF6D61F5AB34200E70E64 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4C2FF6DD1F5AB34200E70E64;
+			remoteInfo = ContryCapital;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4C2FF6DE1F5AB34200E70E64 /* ContryCapital.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContryCapital.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2FF6E11F5AB34200E70E64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4C2FF6E31F5AB34200E70E64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4C2FF6E61F5AB34200E70E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4C2FF6E81F5AB34200E70E64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4C2FF6EB1F5AB34200E70E64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4C2FF6ED1F5AB34200E70E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2FF6F21F5AB34200E70E64 /* ContryCapitalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContryCapitalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2FF6F61F5AB34200E70E64 /* ContryCapitalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContryCapitalTests.swift; sourceTree = "<group>"; };
+		4C2FF6F81F5AB34200E70E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2FF6FD1F5AB34200E70E64 /* ContryCapitalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContryCapitalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C2FF7011F5AB34200E70E64 /* ContryCapitalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContryCapitalUITests.swift; sourceTree = "<group>"; };
+		4C2FF7031F5AB34200E70E64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4C2FF70F1F5ABDFD00E70E64 /* myCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = myCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C2FF6DB1F5AB34200E70E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2FF6EF1F5AB34200E70E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2FF6FA1F5AB34200E70E64 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C2FF6D51F5AB34200E70E64 = {
+			isa = PBXGroup;
+			children = (
+				4C2FF6E01F5AB34200E70E64 /* ContryCapital */,
+				4C2FF6F51F5AB34200E70E64 /* ContryCapitalTests */,
+				4C2FF7001F5AB34200E70E64 /* ContryCapitalUITests */,
+				4C2FF6DF1F5AB34200E70E64 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C2FF6DF1F5AB34200E70E64 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C2FF6DE1F5AB34200E70E64 /* ContryCapital.app */,
+				4C2FF6F21F5AB34200E70E64 /* ContryCapitalTests.xctest */,
+				4C2FF6FD1F5AB34200E70E64 /* ContryCapitalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C2FF6E01F5AB34200E70E64 /* ContryCapital */ = {
+			isa = PBXGroup;
+			children = (
+				4C2FF6E11F5AB34200E70E64 /* AppDelegate.swift */,
+				4C2FF6E31F5AB34200E70E64 /* ViewController.swift */,
+				4C2FF70F1F5ABDFD00E70E64 /* myCell.swift */,
+				4C2FF6E51F5AB34200E70E64 /* Main.storyboard */,
+				4C2FF6E81F5AB34200E70E64 /* Assets.xcassets */,
+				4C2FF6EA1F5AB34200E70E64 /* LaunchScreen.storyboard */,
+				4C2FF6ED1F5AB34200E70E64 /* Info.plist */,
+			);
+			path = ContryCapital;
+			sourceTree = "<group>";
+		};
+		4C2FF6F51F5AB34200E70E64 /* ContryCapitalTests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2FF6F61F5AB34200E70E64 /* ContryCapitalTests.swift */,
+				4C2FF6F81F5AB34200E70E64 /* Info.plist */,
+			);
+			path = ContryCapitalTests;
+			sourceTree = "<group>";
+		};
+		4C2FF7001F5AB34200E70E64 /* ContryCapitalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4C2FF7011F5AB34200E70E64 /* ContryCapitalUITests.swift */,
+				4C2FF7031F5AB34200E70E64 /* Info.plist */,
+			);
+			path = ContryCapitalUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C2FF6DD1F5AB34200E70E64 /* ContryCapital */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2FF7061F5AB34200E70E64 /* Build configuration list for PBXNativeTarget "ContryCapital" */;
+			buildPhases = (
+				4C2FF6DA1F5AB34200E70E64 /* Sources */,
+				4C2FF6DB1F5AB34200E70E64 /* Frameworks */,
+				4C2FF6DC1F5AB34200E70E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ContryCapital;
+			productName = ContryCapital;
+			productReference = 4C2FF6DE1F5AB34200E70E64 /* ContryCapital.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4C2FF6F11F5AB34200E70E64 /* ContryCapitalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2FF7091F5AB34300E70E64 /* Build configuration list for PBXNativeTarget "ContryCapitalTests" */;
+			buildPhases = (
+				4C2FF6EE1F5AB34200E70E64 /* Sources */,
+				4C2FF6EF1F5AB34200E70E64 /* Frameworks */,
+				4C2FF6F01F5AB34200E70E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2FF6F41F5AB34200E70E64 /* PBXTargetDependency */,
+			);
+			name = ContryCapitalTests;
+			productName = ContryCapitalTests;
+			productReference = 4C2FF6F21F5AB34200E70E64 /* ContryCapitalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4C2FF6FC1F5AB34200E70E64 /* ContryCapitalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C2FF70C1F5AB34300E70E64 /* Build configuration list for PBXNativeTarget "ContryCapitalUITests" */;
+			buildPhases = (
+				4C2FF6F91F5AB34200E70E64 /* Sources */,
+				4C2FF6FA1F5AB34200E70E64 /* Frameworks */,
+				4C2FF6FB1F5AB34200E70E64 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4C2FF6FF1F5AB34200E70E64 /* PBXTargetDependency */,
+			);
+			name = ContryCapitalUITests;
+			productName = ContryCapitalUITests;
+			productReference = 4C2FF6FD1F5AB34200E70E64 /* ContryCapitalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C2FF6D61F5AB34200E70E64 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = iflame;
+				TargetAttributes = {
+					4C2FF6DD1F5AB34200E70E64 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+					};
+					4C2FF6F11F5AB34200E70E64 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C2FF6DD1F5AB34200E70E64;
+					};
+					4C2FF6FC1F5AB34200E70E64 = {
+						CreatedOnToolsVersion = 8.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 4C2FF6DD1F5AB34200E70E64;
+					};
+				};
+			};
+			buildConfigurationList = 4C2FF6D91F5AB34200E70E64 /* Build configuration list for PBXProject "ContryCapital" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4C2FF6D51F5AB34200E70E64;
+			productRefGroup = 4C2FF6DF1F5AB34200E70E64 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C2FF6DD1F5AB34200E70E64 /* ContryCapital */,
+				4C2FF6F11F5AB34200E70E64 /* ContryCapitalTests */,
+				4C2FF6FC1F5AB34200E70E64 /* ContryCapitalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C2FF6DC1F5AB34200E70E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FF6EC1F5AB34200E70E64 /* LaunchScreen.storyboard in Resources */,
+				4C2FF6E91F5AB34200E70E64 /* Assets.xcassets in Resources */,
+				4C2FF6E71F5AB34200E70E64 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2FF6F01F5AB34200E70E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2FF6FB1F5AB34200E70E64 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C2FF6DA1F5AB34200E70E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FF6E41F5AB34200E70E64 /* ViewController.swift in Sources */,
+				4C2FF7101F5ABDFD00E70E64 /* myCell.swift in Sources */,
+				4C2FF6E21F5AB34200E70E64 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2FF6EE1F5AB34200E70E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FF6F71F5AB34200E70E64 /* ContryCapitalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4C2FF6F91F5AB34200E70E64 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C2FF7021F5AB34200E70E64 /* ContryCapitalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4C2FF6F41F5AB34200E70E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2FF6DD1F5AB34200E70E64 /* ContryCapital */;
+			targetProxy = 4C2FF6F31F5AB34200E70E64 /* PBXContainerItemProxy */;
+		};
+		4C2FF6FF1F5AB34200E70E64 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4C2FF6DD1F5AB34200E70E64 /* ContryCapital */;
+			targetProxy = 4C2FF6FE1F5AB34200E70E64 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4C2FF6E51F5AB34200E70E64 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2FF6E61F5AB34200E70E64 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4C2FF6EA1F5AB34200E70E64 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C2FF6EB1F5AB34200E70E64 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C2FF7041F5AB34200E70E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4C2FF7051F5AB34200E70E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C2FF7071F5AB34200E70E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContryCapital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.ContryCapital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		4C2FF7081F5AB34200E70E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContryCapital/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.ContryCapital;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		4C2FF70A1F5AB34300E70E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContryCapitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.ContryCapitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContryCapital.app/ContryCapital";
+			};
+			name = Debug;
+		};
+		4C2FF70B1F5AB34300E70E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContryCapitalTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.ContryCapitalTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContryCapital.app/ContryCapital";
+			};
+			name = Release;
+		};
+		4C2FF70D1F5AB34300E70E64 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContryCapitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.ContryCapitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ContryCapital;
+			};
+			name = Debug;
+		};
+		4C2FF70E1F5AB34300E70E64 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ContryCapitalUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = iflame.ContryCapitalUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ContryCapital;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C2FF6D91F5AB34200E70E64 /* Build configuration list for PBXProject "ContryCapital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2FF7041F5AB34200E70E64 /* Debug */,
+				4C2FF7051F5AB34200E70E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C2FF7061F5AB34200E70E64 /* Build configuration list for PBXNativeTarget "ContryCapital" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2FF7071F5AB34200E70E64 /* Debug */,
+				4C2FF7081F5AB34200E70E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C2FF7091F5AB34300E70E64 /* Build configuration list for PBXNativeTarget "ContryCapitalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2FF70A1F5AB34300E70E64 /* Debug */,
+				4C2FF70B1F5AB34300E70E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4C2FF70C1F5AB34300E70E64 /* Build configuration list for PBXNativeTarget "ContryCapitalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C2FF70D1F5AB34300E70E64 /* Debug */,
+				4C2FF70E1F5AB34300E70E64 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C2FF6D61F5AB34200E70E64 /* Project object */;
+}
